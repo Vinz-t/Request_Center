@@ -54,4 +54,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES['images'])) {
         <input type="submit" value="Upload">
     </form>
 </body>
+
 </html>
+
+CREATE TABLE ImageTable (
+    Id INT IDENTITY PRIMARY KEY,
+    ImageData VARBINARY(MAX),
+    ImageName NVARCHAR(255),
+    MimeType NVARCHAR(100)
+);
