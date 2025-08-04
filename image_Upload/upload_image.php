@@ -63,3 +63,44 @@ CREATE TABLE ImageTable (
     ImageName NVARCHAR(255),
     MimeType NVARCHAR(100)
 );
+
+// upload one image only
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES['image'])) {
+    $serverName = "localhost"; // or your SQL Server name
+    $connectionOptions = [
+        "Database" => "YourDatabase",
+        "Uid" => "YourUsername",
+        "PWD" => "YourPassword"
+    ];
+
+    $conn = sqlsrv_connect($serverName, $connectionOptions);
+
+    if ($conn === false) {
+        die(print_r(sqlsrv_errors(), true));
+    }
+
+    $imageData = file_get_contents($_FILES['image']['tmp_name']);
+    $imageName = $_FILES['image']['name'];
+    $mimeType = $_FILES['image']['type'];
+
+    $sql = "INSERT INTO ImageTable (ImageData, ImageName, MimeType) VALUES (?, ?, ?)";
+    $params = [
+        [$imageData, SQLSRV_PARAM_IN, SQLSRV_PHPTYPE_STREAM(SQLSRV_ENC_BINARY)],
+        [$imageName, SQLSRV_PARAM_IN],
+        [$mimeType, SQLSRV_PARAM_IN]
+    ];
+
+    $stmt = sqlsrv_query($conn, $sql, $params);
+
+    if ($stmt === false) {
+        echo "Upload failed.<br>";
+        die(print_r(sqlsrv_errors(), true));
+    } else {
+        echo "Image uploaded successfully!";
+    }
+
+    sqlsrv_close($conn);
+}
+?>
+
