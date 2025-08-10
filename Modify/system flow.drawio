@@ -1,0 +1,194 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.9">
+  <diagram name="Page-1" id="9ii-gn2GsEJd67bMjn7g">
+    <mxGraphModel dx="2377" dy="1308" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mp2ecky8mDY5ZGY87EEG-2" target="mp2ecky8mDY5ZGY87EEG-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-2" value="User Dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="141.5" y="199" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="mp2ecky8mDY5ZGY87EEG-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="201.5" y="249.01000000000005" as="sourcePoint" />
+            <mxPoint x="281.5" y="229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-13" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;- can create request&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;can view&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- pending&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- ongoing&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- approved request completion&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- completed&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- reject/cancelled&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="141.5" y="249" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mp2ecky8mDY5ZGY87EEG-14" target="mp2ecky8mDY5ZGY87EEG-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-14" value="Dept. Manager Dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="291.5" y="199" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-15" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="mp2ecky8mDY5ZGY87EEG-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="351.5" y="249.01000000000005" as="sourcePoint" />
+            <mxPoint x="431.5" y="229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-16" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;- approved new request&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can edit, and reject request&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can view ongoing and completed request&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- approved request completion&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- add user account&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="291.5" y="249" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mp2ecky8mDY5ZGY87EEG-18" target="mp2ecky8mDY5ZGY87EEG-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-18" value="Facility clerk or staff&lt;div&gt;Dashboard&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="441.5" y="199" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="mp2ecky8mDY5ZGY87EEG-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="501.5" y="249.01000000000005" as="sourcePoint" />
+            <mxPoint x="581.5" y="229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-20" value="&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can accept, and reject request&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can assign PIC, categorize&amp;nbsp; request and attach remarks/SOW in pdf.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- can view all ongoing and completed request&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- add technician account&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="439.5" y="247" width="126" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-22" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;The person who&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;monitor&lt;/font&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;the incoming request&lt;/span&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;and assist the request&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.oval_callout" vertex="1" parent="1">
+          <mxGeometry x="506.5" y="110" width="127" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mp2ecky8mDY5ZGY87EEG-23" target="mp2ecky8mDY5ZGY87EEG-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="728.5" y="214" />
+              <mxPoint x="728.5" y="393" />
+              <mxPoint x="346.5" y="393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-23" value="Technician&lt;div&gt;&amp;nbsp;Dashboard&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="588.5" y="199" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="mp2ecky8mDY5ZGY87EEG-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="648.5" y="249.01000000000005" as="sourcePoint" />
+            <mxPoint x="728.5" y="229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-25" value="&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can create start date of activity&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;- can submit the completion of request with notes and attach image as proof of work.&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="596.5" y="247" width="104" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mp2ecky8mDY5ZGY87EEG-27" target="mp2ecky8mDY5ZGY87EEG-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-27" value="Facility Supervisor Dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="286.5" y="413" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-28" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="mp2ecky8mDY5ZGY87EEG-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="346.5" y="463.01000000000005" as="sourcePoint" />
+            <mxPoint x="426.5" y="443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-29" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;- approved the completed work request of technician&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can view all ongoing and completed request&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- add technician account&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="291.5" y="463" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-31" value="Facility Manager Dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="441.5" y="413" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-32" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="mp2ecky8mDY5ZGY87EEG-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="501.5" y="463.01000000000005" as="sourcePoint" />
+            <mxPoint x="581.5" y="443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-33" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;- approved the completed work request of technician&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can view all ongoing and completed request&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- add technician account&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="446.5" y="463" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mp2ecky8mDY5ZGY87EEG-37" target="mp2ecky8mDY5ZGY87EEG-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-37" value="User Dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="75" y="740" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-38" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="mp2ecky8mDY5ZGY87EEG-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135" y="790.01" as="sourcePoint" />
+            <mxPoint x="215" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-39" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;- can create request&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;can view&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- pending&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- ongoing&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- approved request completion&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- completed&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- reject/cancelled&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="75" y="790" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mp2ecky8mDY5ZGY87EEG-41" target="mp2ecky8mDY5ZGY87EEG-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-41" value="Dept. Manager Dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="740" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-42" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="mp2ecky8mDY5ZGY87EEG-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="790.01" as="sourcePoint" />
+            <mxPoint x="365" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-43" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;- approved new request&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can edit, and reject request&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can view ongoing and completed request&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- approved request completion&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- add user account&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="225" y="790" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="mp2ecky8mDY5ZGY87EEG-45" target="mp2ecky8mDY5ZGY87EEG-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-45" value="Facility supervisor&lt;div&gt;Dashboard&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="740" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-46" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="mp2ecky8mDY5ZGY87EEG-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="435" y="790.01" as="sourcePoint" />
+            <mxPoint x="515" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-47" value="&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can accept, and reject request&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can assign PIC, categorize&amp;nbsp; request and attach remarks/SOW in pdf.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- can view all ongoing&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;approved the completed work request of technician&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- can view all completed request&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- add technician account&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="354" y="788" width="162" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="mp2ecky8mDY5ZGY87EEG-49" target="mp2ecky8mDY5ZGY87EEG-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-49" value="Technician&lt;div&gt;&amp;nbsp;Dashboard&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="522" y="740" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-50" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="mp2ecky8mDY5ZGY87EEG-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="582" y="790.01" as="sourcePoint" />
+            <mxPoint x="662" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-51" value="&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can create start date of activity&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;- can submit the completion of request with notes and attach image as proof of work.&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="788" width="104" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-56" value="Facility Manager Dashboard" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="740" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-57" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="mp2ecky8mDY5ZGY87EEG-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="715" y="790.01" as="sourcePoint" />
+            <mxPoint x="795" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-58" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;- approved the completed work request of technician&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- can view all ongoing and completed request&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- add technician account&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="660" y="788" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=-0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="433" y="740" as="sourcePoint" />
+            <mxPoint x="719" y="739.1899999999999" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="433" y="710" />
+              <mxPoint x="719" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-65" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;Original flow&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="302" y="630" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mp2ecky8mDY5ZGY87EEG-66" value="&lt;font style=&quot;font-size: 35px;&quot;&gt;Original flow v2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="271.5" y="90" width="260" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
