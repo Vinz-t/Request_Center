@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap1.min.css">
+    <link rel="stylesheet" href="css/style1.css">
+
+    <style>
+        .custom-modal {
+            max-width: 1200px;
+            /* fixed max width */
+            width: 90%;
+            /* responsive shrink on smaller screens */
+            margin-left: auto;
+            /* center horizontally */
+            margin-right: auto;
+        }
+    </style>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog custom-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-2">
+                    <table style="width:100%">
+                        <tr>
+                            <td colspan="4">
+                                <div class="row">
+                                    <div class="col d-flex align-items-center">
+                                        Fujifilm logo
+                                    </div>
+                                    <div class="col" style="text-align:right;">
+                                        Work Order #: 01-2025-01 <br>
+                                        Date: December 25, 2025
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 text-center pt-4">
+                                        <h2>WORK ORDER REQUEST FORM</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 pt-4">
+                                        Department: Accounting <br>
+                                        Request by: Roy Vincent M. Paring <br>
+                                        Request Category: Inhouse or Out-Source
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 260px;">
+                                Request Type:
+                            </td>
+                            <td colspan="3">Here is the message</td>
+                        </tr>
+                        <tr>
+                            <td>Reason of Request:</td>
+                            <td colspan="3">Here is the message</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <table style="width:100%">
+                                    <tr>
+                                        <td colspan="4" align="center" class="bg-secondary">
+                                            <span class="text-uppercase"><strong>Signaturees</strong></span>
+                                        </td>
+                                    </tr>
+                                    <tr align="center">
+                                        <td>Department Manager/Supervisor</td>
+                                        <td colspan="3">Facilities Manager/Supervisor/Technician</td>
+                                    </tr>
+                                    <tr align="center">
+                                        <td><img src="images/user.png" height="100%"></td>
+                                        <td><img src="images/user.png" height="100%"></td>
+                                        <td><img src="images/user.png" height="100%"></td>
+                                        <td><img src="images/user.png" height="100%"></td>
+                                    </tr>
+                                    <tr align="center">
+                                        <td>Name</td>
+                                        <td>Name</td>
+                                        <td>Name</td>
+                                        <td>Name</td>
+                                    </tr>
+                                    <tr align="center">
+                                        <td>Date</td>
+                                        <td>Date</td>
+                                        <td>Date</td>
+                                        <td>Date</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Facilities Comment/Recommendation:</td>
+                            <td colspan="3">Here is the message</td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <table style="width:100%">
+                                    <tr>
+                                        <td colspan="4" align="center" class="bg-secondary">
+                                            <span class="text-uppercase">
+                                                <strong>
+                                                    Acceptance of Completed Work Order Signaturees
+                                                </strong>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr align="center">
+                                        <td>Requestor</td>
+                                        <td>Requestor Department Manager/Supervisor</td>
+                                    </tr>
+                                    <tr align="center">
+                                        <td><img src="images/user.png" height="100%"></td>
+                                        <td><img src="images/user.png" height="100%"></td>
+                                    </tr>
+                                    <tr align="center">
+                                        <td>Name</td>
+                                        <td>Name</td>
+                                    </tr>
+                                    <tr align="center">
+                                        <td>Date</td>
+                                        <td>Date</td>
+                                    </tr>
+                                </table>
+                                <br>
+                                <div class="row">
+                                    <div class="col text-muted">
+                                        FAM-001-01
+                                    </div>
+                                    <div class="col text-muted" style="text-align:right;">
+                                        EFF:07/17/18
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        /* td,
+        th {
+            border: none;
+            padding: 8px;
+        } */
+    </style>
+
+    <h1>Tabled design</h1>
+
+    <div class="p-2">
+        <table style="width:100%">
+            <tr>
+                <td colspan="4">
+                    <div class="row">
+                        <div class="col d-flex align-items-center">
+                            Fujifilm logo
+                        </div>
+                        <div class="col" style="text-align:right;">
+                            Work Order #: 01-2025-01 <br>
+                            Date: December 25, 2025
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center pt-4">
+                            <h2>WORK ORDER REQUEST FORM</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 pt-4">
+                            Department: Accounting <br>
+                            Request by: Roy Vincent M. Paring <br>
+                            Request Category: Inhouse or Out-Source
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 260px;">
+                    Request Type:
+                </td>
+                <td colspan="3">Here is the message</td>
+            </tr>
+            <tr>
+                <td>Reason of Request:</td>
+                <td colspan="3">Here is the message</td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <table style="width:100%">
+                        <tr>
+                            <td colspan="4" align="center" class="bg-secondary">
+                                <span class="text-uppercase"><strong>Signaturees</strong></span>
+                            </td>
+                        </tr>
+                        <tr align="center">
+                            <td>Department Manager/Supervisor</td>
+                            <td colspan="3">Facilities Manager/Supervisor/Technician</td>
+                        </tr>
+                        <tr align="center">
+                            <td><img src="images/user.png" height="100%"></td>
+                            <td><img src="images/user.png" height="100%"></td>
+                            <td><img src="images/user.png" height="100%"></td>
+                            <td><img src="images/user.png" height="100%"></td>
+                        </tr>
+                        <tr align="center">
+                            <td>Name</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                            <td>Name</td>
+                        </tr>
+                        <tr align="center">
+                            <td>Date</td>
+                            <td>Date</td>
+                            <td>Date</td>
+                            <td>Date</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>Facilities Comment/Recommendation:</td>
+                <td colspan="3">Here is the message</td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <table style="width:100%">
+                        <tr>
+                            <td colspan="4" align="center" class="bg-secondary">
+                                <span class="text-uppercase">
+                                    <strong>
+                                        Acceptance of Completed Work Order Signaturees
+                                    </strong>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr align="center">
+                            <td>Requestor</td>
+                            <td>Requestor Department Manager/Supervisor</td>
+                        </tr>
+                        <tr align="center">
+                            <td><img src="images/user.png" height="100%"></td>
+                            <td><img src="images/user.png" height="100%"></td>
+                        </tr>
+                        <tr align="center">
+                            <td>Name</td>
+                            <td>Name</td>
+                        </tr>
+                        <tr align="center">
+                            <td>Date</td>
+                            <td>Date</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <div class="row">
+                        <div class="col text-muted">
+                            FAM-001-01
+                        </div>
+                        <div class="col text-muted" style="text-align:right;">
+                            EFF:07/17/18
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+</body>
+
+</html>
